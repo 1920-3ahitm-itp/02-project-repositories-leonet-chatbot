@@ -1,5 +1,5 @@
-= Leonet Chatbot
-Simon Knogler
+= LeoNet Chatbot
+Knogler, Klausner
 1.0.1, 2020-03-21
 :sourcedir: ../src/main/java
 :icons: font
@@ -41,7 +41,7 @@ präsentieren.
 == 2.User-Stories
 
 Wenn ich auf die Website kommne, möchte ich, dass mich der Chatbot mit einer kurzen Nachricht, wie zum Beispiel "Hallo!
-ich bin Leonet! Wenn du Fragen hast, kannst du mir sie gerne Stellen!"
+ich bin Leonet! Wenn du eine Frage hast, kannst du mir sie gerne Stellen!"
 
 Wenn ich Leonet eine Frage über das Bildungsangebot der Informatik frage, soll sie mir den Link auf dei schon vorhandene
 unterseite zu dem Thema vorschlagen.
