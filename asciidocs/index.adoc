@@ -1,65 +1,43 @@
-= My Project
-firstname lastname
-1.0.1, yyyy-mm-dd
+= Leonet Chatbot
+Simon Knogler, FLorian Klausner
+1.0.1, 2020-03-21
 :sourcedir: ../src/main/java
 :icons: font
 :toc: left
 
 
-== Pflichtenheft "Was mache ich"
+== 1.Pflichtenheft
 
 
 === Ausgangssituation
-
-Die HTL Leonding ist eine HTL im oö. Zentralraum mit ca. 1000 Schülern und den Fachabteilungen Medientechnik, Informatik, ....
+Die HTL-Leonding ist eine Lehranstalt in Oberösterreich, wo derzeit rund 1000 Schüler unterrichtet werden.
 
 === Istzustand
-----
-Beschreibung der speziellen Situation zB in der Abteilung
-----
+Derzeit kann man auf der Website alle nötigen Informationen herraussuchen. Wenn man noch Nähere Informationen braucht,
+kann man im Sektretariat anrufen und dort nachfragen.
+
+##### Geschäftsprozesse
+
+1. Navigation auf der Schulwebsite. (z.B "Zeige mir die nächsten anstehenden Termine")
+2. Informationen über Lehrer (z.B Sprechstunden), Termine und Informationen der einzelnen Schwerpunkte können über
+    Texteingabe abgerufen werden.
+3. Leonet soll eine "Persönlichkeit" haben (Gesicht, Humor, ...)
+
 === Problemstellung
+Derzeit muss der User alle Informationen heraussuchen und auf der Website selbst herumnavigieren.
+Dies kann manchmal etwas verwirrend sein und viel mehr Zeit in Anspruch nehmen als der User aufbringen möchte.
+Informationen, die nicht so oft gesucht werden können auf der Website sehr schlecht gefunden werden.
+
 === Aufgabenstellung
-==== Funktionale Anforderungen
+Es wird ein Chatbot mittels Dialogflow erstell und in die Website der HTL-Leonding eingebunden. Dieser soll Daten von
+Lehrkräften, Termine und generelle Informationen auf der Website mittels Texteingabe suchen und dem User anschaulich
+präsentieren.
 
-[plantuml,wireframe,png]
-----
-@startsalt
-{
-Name         | "                 "
-Modifiers:   | { (X) public | () default | () private | () protected
-	            [] abstract | [] final   | [] static }
-Superclass:  | { "java.lang.Object " | [Browse...] }
-}
-@endsalt
-----
-==== Nichtfunktionale Anforderungen (NFA)
-=== Ziele
-=== Mengengerüst
-=== Rahmenbedingungen
-zB Vorgaben vom Auftraggeber
+=== Zielsetzung
+Es wird ein Chatbot mittels Dialogflow erstell und in die Website der HTL-Leonding eingebunden. Dieser soll Daten von
+Lehrkräften, Termine und generelle Informationen auf der Website mittels Texteingabe suchen und dem User anschaulich
+präsentieren.
 
-== Entwurf "Wie mache ich es"
-=== Systemarchitektur
-=== ...
+== 2.User-Stories
 
-== Projekthandbuch "Organisatorische Rahmenbedingungen"
-
-=== GANTT-Diagramm
-
-mit User-Stories (definiert in YouTrack)
-
-[plantuml,gantt-protoype,png]
-----
-@startuml
-[Test prototype] lasts 10 days
-[Prototype completed] happens at [Test prototype]'s end
-[Setup assembly line] lasts 12 days
-[Setup assembly line] starts at [Test prototype]'s end
-[Test prototype 2] lasts 3 days
-[Test prototype 2] starts at [Prototype completed]'s end
-@enduml
-----
-
-
-link:demo.html[Demo]
 
