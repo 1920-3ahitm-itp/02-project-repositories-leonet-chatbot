@@ -47,7 +47,7 @@ Wenn ich Leonet eine Frage über das Bildungsangebot der Informatik frage, soll 
 unterseite zu dem Thema vorschlagen.
 
 Wenn Leonet eine Frage nicht verstanden hat oder eine Frage, die nichts mit der HTL-Leonding zu tun hat gefragt wurde,
-soll sie nett darauf hinweisen, dass die Frage für sie nicht verständlich war.
+soll sie nett darauf hinweisen, dass die Frage für sie nicht verständlich ist.
 
 Wenn ich Leonet frage, wie die Telefonnummer des Sekretariats lautet, soll sie mir die richtige Telefonnummer Vorschlagen
 und dabei eine nette und etwas lustigere Nachricht, wie zum Beispiel "Probiere diese Nummer einmal, die hat bis jetzt immer"
