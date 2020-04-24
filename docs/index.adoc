@@ -1,0 +1,77 @@
+= LeoNet Chatbot
+Knogler
+1.0.1, 2020-04-24
+:sourcedir: ../src/main/java
+:icons: font
+:toc: left
+
+
+== 1.Pflichtenheft
+
+
+=== Ausgangssituation
+Die HTL-Leonding ist eine Lehranstalt in Oberösterreich, wo derzeit rund 1000 Schüler unterrichtet werden.
+
+=== Istzustand
+Derzeit kann man auf der Website alle nötigen Informationen herraussuchen. Wenn man noch Nähere Informationen braucht,
+kann man im Sektretariat anrufen und dort nachfragen.
+
+##### Geschäftsprozesse
+
+1. Navigation auf der Schulwebsite. (z.B "Zeige mir die nächsten anstehenden Termine")
+2. Informationen über Lehrer (z.B Sprechstunden), Termine und Informationen der einzelnen Schwerpunkte können über
+    Texteingabe abgerufen werden.
+3. Leonet soll eine "Persönlichkeit" haben (Gesicht, Humor, ...)
+
+=== Problemstellung
+Derzeit muss der User alle Informationen heraussuchen und auf der Website selbst herumnavigieren.
+Dies kann manchmal etwas verwirrend sein und viel mehr Zeit in Anspruch nehmen als der User aufbringen möchte.
+Informationen, die nicht so oft gesucht werden können auf der Website sehr schlecht gefunden werden.
+
+=== Aufgabenstellung
+Es wird ein Chatbot mittels Dialogflow erstell und in die Website der HTL-Leonding eingebunden. Dieser soll Daten von
+Lehrkräften, Termine und generelle Informationen auf der Website mittels Texteingabe suchen und dem User anschaulich
+präsentieren.
+
+=== Zielsetzung
+Es wird ein Chatbot mittels Dialogflow erstell und in die Website der HTL-Leonding eingebunden. Dieser soll Daten von
+Lehrkräften, Termine und generelle Informationen auf der Website mittels Texteingabe suchen und dem User anschaulich
+präsentieren.
+
+== 2.User-Stories
+
+Wenn ich auf die Website kommne, möchte ich, dass mich der Chatbot mit einer kurzen Nachricht, wie zum Beispiel "Hallo!
+ich bin Leonet! Wenn du eine Frage hast, kannst du mir sie gerne Stellen!"
+
+Wenn ich Leonet eine Frage über das Bildungsangebot der Informatik frage, soll sie mir den Link auf dei schon vorhandene
+unterseite zu dem Thema vorschlagen.
+
+Wenn Leonet eine Frage nicht verstanden hat oder eine Frage, die nichts mit der HTL-Leonding zu tun hat gefragt wurde,
+soll sie nett darauf hinweisen, dass die Frage für sie nicht verständlich ist.
+
+Wenn ich Leonet frage, wie die Telefonnummer des Sekretariats lautet, soll sie mir die richtige Telefonnummer Vorschlagen
+und dabei eine nette und etwas lustigere Nachricht, wie zum Beispiel "Probiere diese Nummer einmal, die hat bis jetzt immer"
+funktioniert", anhängen.
+
+== 3.Marktanalyse
+
+Magenta - Tinka
+https://www.magenta.at/
+
+Linz - Elli
+https://www.linz.at/db/chatbot/
+
+Drei - Troy
+https://www.drei.at/de/privat/
+
+Heek - Chatbot für das Designen von Websites
+https://www.heek.com/app/editor
+
+Cubertbyusphones - Cubert
+https://cubertbuysphones.com/cubert/
+
+An artful science - Milo
+https://anartfulscience.com/milo.php
+
+Pandora Bots - Mitsuku
+https://www.pandorabots.com/mitsuku/
