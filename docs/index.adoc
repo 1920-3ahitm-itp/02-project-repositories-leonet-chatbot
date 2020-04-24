@@ -38,7 +38,6 @@ Es wird ein Chatbot mittels Dialogflow erstell und in die Website der HTL-Leondi
 Lehrkräften, Termine und generelle Informationen auf der Website mittels Texteingabe suchen und dem User anschaulich
 präsentieren.
 
-
 == 2.User-Stories
 
 Wenn ich auf die Website kommne, möchte ich, dass mich der Chatbot mit einer kurzen Nachricht, wie zum Beispiel "Hallo!
@@ -53,7 +52,6 @@ soll sie nett darauf hinweisen, dass die Frage für sie nicht verständlich ist.
 Wenn ich Leonet frage, wie die Telefonnummer des Sekretariats lautet, soll sie mir die richtige Telefonnummer Vorschlagen
 und dabei eine nette und etwas lustigere Nachricht, wie zum Beispiel "Probiere diese Nummer einmal, die hat bis jetzt immer"
 funktioniert", anhängen.
-
 
 == 3.Marktanalyse
 
