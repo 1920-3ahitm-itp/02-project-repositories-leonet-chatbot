@@ -1,6 +1,6 @@
 = LeoNet Chatbot
-Knogler Simon
-1.0.1, 2020-03-21
+Knogler
+1.0.1, 2020-04-24
 :sourcedir: ../src/main/java
 :icons: font
 :toc: left
@@ -52,3 +52,26 @@ soll sie nett darauf hinweisen, dass die Frage für sie nicht verständlich ist.
 Wenn ich Leonet frage, wie die Telefonnummer des Sekretariats lautet, soll sie mir die richtige Telefonnummer Vorschlagen
 und dabei eine nette und etwas lustigere Nachricht, wie zum Beispiel "Probiere diese Nummer einmal, die hat bis jetzt immer"
 funktioniert", anhängen.
+
+== 3.Marktanalyse
+
+Magenta - Tinka
+https://www.magenta.at/
+
+Linz - Elli
+https://www.linz.at/db/chatbot/
+
+Drei - Troy
+https://www.drei.at/de/privat/
+
+Heek - Chatbot für das Designen von Websites
+https://www.heek.com/app/editor
+
+Cubertbyusphones - Cubert
+https://cubertbuysphones.com/cubert/
+
+An artful science - Milo
+https://anartfulscience.com/milo.php
+
+Pandora Bots - Mitsuku
+https://www.pandorabots.com/mitsuku/
