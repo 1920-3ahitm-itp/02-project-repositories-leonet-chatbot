@@ -1,13 +1,11 @@
 = LeoNet Chatbot
-Knogler
+Knogler Simon
 1.0.1, 2020-04-24
 :sourcedir: ../src/main/java
 :icons: font
 :toc: left
 
-
 == 1.Pflichtenheft
-
 
 === Ausgangssituation
 Die HTL-Leonding ist eine Lehranstalt in Oberösterreich, wo derzeit rund 1000 Schüler unterrichtet werden.
