@@ -1,6 +1,6 @@
 = LeoNet Chatbot
 Knogler Simon
-1.0.1, 2020-04-24
+1.0.5, 2020-05-07
 :sourcedir: ../src/main/java
 :icons: font
 :toc: left
@@ -27,14 +27,15 @@ Dies kann manchmal etwas verwirrend sein und viel mehr Zeit in Anspruch nehmen a
 Informationen, die nicht so oft gesucht werden können auf der Website sehr schlecht gefunden werden.
 
 === Aufgabenstellung
-Es wird ein Chatbot mittels Dialogflow erstell und in die Website der HTL-Leonding eingebunden. Dieser soll Daten von
+Es wird ein Chatbot mittels Dialogflow erstellt und in die Website der HTL-Leonding eingebunden. Dieser soll Daten von
 Lehrkräften, Termine und generelle Informationen auf der Website mittels Texteingabe suchen und dem User anschaulich
-präsentieren.
+präsentieren. Auch gibt der Bot Fragen oder Themen vor, die der User auswählen kann.
 
 === Zielsetzung
-Es wird ein Chatbot mittels Dialogflow erstell und in die Website der HTL-Leonding eingebunden. Dieser soll Daten von
-Lehrkräften, Termine und generelle Informationen auf der Website mittels Texteingabe suchen und dem User anschaulich
-präsentieren.
+Der Bot hilft den Benutzern, sich auf der Website besser zurecht zu finden. Die Informationen, die jeder Benutzer braucht können
+viel schneller und einfacher gefunden werden. Der Nutzer fühlt sich, sobald er auf der Website ist, mehr willkommen, da LeoNet etwas "menschlichkeit"
+bereitstellt. Der User muss nicht den ersten Schritt machen, sondern wird von LeoNet an der Hand geführt, da er direkt angesprochen wird
+und von vorgeschlagenen Fragen auswählen kann.
 
 
 == 2.User-Stories
@@ -53,25 +54,29 @@ und dabei eine nette und etwas lustigere Nachricht, wie zum Beispiel "Probiere d
 funktioniert", anhängen.
 
 
-== 3.Marktanalyse
+== 3. Anwendungsbeispiele
+Der User wählt den vorgeschlagenen Punkt "Erfahre etwas über unser Bildungsangebot" aus und gelangt so auf die Unterseite "https://www.htl-leonding.ac.at/bildungsangebot".
 
-Magenta - Tinka
-https://www.magenta.at/
+Der User gibt in das Eingabefeld "Informatik" ein. Darauf antwortet der Chatbot mit "Ich habe viele Informationen über die Informatik hier gefunden: https://www.htl-leonding.ac.at/billdungsangebot/informatik"
 
-Linz - Elli
-https://www.linz.at/db/chatbot/
+Der User interagiert nicht mit dem Chatbot, deswegen wird das Fenster klein und bleibt in der linken unteren Ecke des Bildschirms.
 
-Drei - Troy
-https://www.drei.at/de/privat/
+Der User findet keine Informationen über das Schulradio und gibt darauf hin in das Eingabefenster "Wo finde ich das Schulradio?" ein. LeoNet antwortet darauf "Infos über das Schulradio findest du unter https://www.htl-leonding.ac.at/aktivitaeten/schulradio ". Der User klickt auf den Link und gelangt so auf die entsprechende Unterseite.
 
-Heek - Chatbot für das Designen von Websites
-https://www.heek.com/app/editor
+Ein Schüler muss einem Professor eine eMail schicken, doch findet die richtige Adresse nicht. Deswegen gibt er im Eingabefenster den namen des Professors ein. LeoNet gibt daraufhin zurück "Ich habe alle Informationen die du brauchen könntest hier gefunden: https://www.htl-leonding.ac.at/kontakt/lehrer-innen/". Auf dieser Unterseite wurde schon nach dem Professor gesucht, dass der Schüler direkt die Informationen findet.
 
-Cubertbyusphones - Cubert
-https://cubertbuysphones.com/cubert/
 
-An artful science - Milo
-https://anartfulscience.com/milo.php
+== 4. Produktvergleich
+Magenta - Tinka https://www.magenta.at/
 
-Pandora Bots - Mitsuku
-https://www.pandorabots.com/mitsuku/
+Linz - Elli https://www.linz.at/db/chatbot/
+
+Drei - Troy https://www.drei.at/de/privat/
+
+Heek - Chatbot für das Designen von Websites https://www.heek.com/app/editor
+
+Cubertbyusphones - Cubert https://cubertbuysphones.com/cubert/
+
+An artful science - Milo https://anartfulscience.com/milo.php
+
+Pandora Bots - Mitsuku https://www.pandorabots.com/mitsuku/
