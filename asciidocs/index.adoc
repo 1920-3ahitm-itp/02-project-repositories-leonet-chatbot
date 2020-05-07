@@ -98,4 +98,5 @@ Pandora Bots - Mitsuku https://www.pandorabots.com/mitsuku/
 |Die Implementierung ist sehr gut gelungen. Keine Texteingabe und ein vordefinierter Verlauf ist sehr eingeschränkt.
 |Ein sehr intelligenter Chatbot, der aber nicht für einen bestimmten Zweck/Website angefertigt wurde. Der Avatar ist sehr gut gelungen!
 
+
 |===
