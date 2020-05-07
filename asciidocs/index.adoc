@@ -67,16 +67,35 @@ Ein Schüler muss einem Professor eine eMail schicken, doch findet die richtige 
 
 
 == 4. Produktvergleich
+
 Magenta - Tinka https://www.magenta.at/
 
 Linz - Elli https://www.linz.at/db/chatbot/
 
 Drei - Troy https://www.drei.at/de/privat/
 
-Heek - Chatbot für das Designen von Websites https://www.heek.com/app/editor
-
 Cubertbyusphones - Cubert https://cubertbuysphones.com/cubert/
 
-An artful science - Milo https://anartfulscience.com/milo.php
-
 Pandora Bots - Mitsuku https://www.pandorabots.com/mitsuku/
+
+|===
+| |Tinka |Elli |Cubert |Mitsuki
+|Vorteile
+|Begrüßung, Vorschläge, Übersichtliche Implementierung
+|Avatar (Gesicht), Begrüßung, Fragenvorschläge, Smalltalk
+|Sehr schöne Implementierung
+|Sehr intelligent. Der Avatar verleiht dem Bot sehr viel menschlichkeit.
+
+|Nachteile
+|Kein Smalltalk
+|Nicht minimierbar
+|Keine Texteingabe,nur geführter Verlauf, dadurch auch kein Smalltalk
+|Keine vorgeschlagenen Fragen
+
+|Fazit
+|Implementierung ist sehr übersichtlich. Fragenvorschläge sind verständlich und gut formuliert.
+|Der Avatar macht den Bot vertraulicher und Smalltalk macht ihn menschlicher.
+|Die Implementierung ist sehr gut gelungen. Keine Texteingabe und ein vordefinierter Verlauf ist sehr eingeschränkt.
+|Ein sehr intelligenter Chatbot, der aber nicht für einen bestimmten Zweck/Website angefertigt wurde. Der Avatar ist sehr gut gelungen!
+
+|===
