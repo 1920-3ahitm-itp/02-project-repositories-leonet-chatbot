@@ -1,0 +1,72 @@
+= Besprechungsprotokoll 27.04.2020
+VorSimon Knogler
+1.0, 2020.04.27
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Teilnehmer
+|===
+|anwesend |Verteiler
+
+|Simon Knogler
+|
+
+|Florian Klausner
+|
+
+|T. Stütz
+|
+|===
+
+.Ort und Zeit
+[cols=2*]
+|===
+|Ort
+|Discord
+
+|von-bis
+|Mo. 27.4.2020, 9. und teilweise 10. EH
+|Dauer
+|ca. 40 min
+|===
+
+
+
+== Besprochene Themen
+
+* README.adoc
+* Dokumentation
+* Marktanalyse
+* Anwendungsfälle
+* Zielsetzung
+* Aufgabenstellung
+
+=== Vereinbarungen und Entscheidungen
+
+==== Punkt 1
+
+Readme.adoc soll den Link zur Github-Page enthalten
+
+==== Punkt 2
+
+Alle Gespräche müssen mithilfe dem protocol-template.adoc geschrieben werden.
+
+==== Punkt 3
+
+Die Marktanalyse soll zu Produktvergleich unbennant werden.
+Die Produkte sollen auf verscheidene Kriterien verglichen und alle, die für unser Projekt relevant oder hilfreich
+sein können heraus geschrieben werden.
+
+==== Punkt 4
+
+Anwendungsfälle soll zu Anwendungsbeispiele umbennant werden.
+Es muss ein UML Diagramm erstellt werden.
+
+==== Punkt 5
+
+Die Zielsetzung muss neu verfasst werden.
+
+==== Punkt 6
+
+Die Aufgabenstellung muss aufgrund neuer Vereinbarungen upgedated werden.
