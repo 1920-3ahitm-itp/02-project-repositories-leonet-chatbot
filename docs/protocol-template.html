@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="Knogler, Klausner">
+<meta name="author" content="VorSimon Knogler">
 <link rel="icon" type="image/png" href="themes/favicon.png">
-<title>LeoNet Chatbot</title>
+<title>Besprechungsprotokoll 27.04.2020</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -449,197 +449,150 @@ pre.rouge .hll * {
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>LeoNet Chatbot</h1>
+<h1>Besprechungsprotokoll 27.04.2020</h1>
 <div class="details">
-<span id="author" class="author">Knogler, Klausner</span><br>
-<span id="revnumber">version 1.0.5,</span>
-<span id="revdate">2020-05-07</span>
+<span id="author" class="author">VorSimon Knogler</span><br>
+<span id="revnumber">version 1.0,</span>
+<span id="revdate">2020.04.27</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_1_pflichtenheft">1. 1.Pflichtenheft</a>
+<li><a href="#_besprochene_themen">1. Besprochene Themen</a>
 <ul class="sectlevel2">
-<li><a href="#_ausgangssituation">1.1. Ausgangssituation</a></li>
-<li><a href="#_istzustand">1.2. Istzustand</a></li>
-<li><a href="#_problemstellung">1.3. Problemstellung</a></li>
-<li><a href="#_aufgabenstellung">1.4. Aufgabenstellung</a></li>
-<li><a href="#_zielsetzung">1.5. Zielsetzung</a></li>
+<li><a href="#_vereinbarungen_und_entscheidungen">1.1. Vereinbarungen und Entscheidungen</a></li>
 </ul>
 </li>
-<li><a href="#_2_user_stories">2. 2.User-Stories</a></li>
-<li><a href="#_3_anwendungsbeispiele">3. 3. Anwendungsbeispiele</a></li>
-<li><a href="#_4_produktvergleich">4. 4. Produktvergleich</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_1_pflichtenheft"><a class="anchor" href="#_1_pflichtenheft"></a>1. 1.Pflichtenheft</h2>
+<div id="preamble">
 <div class="sectionbody">
-<div class="sect2">
-<h3 id="_ausgangssituation"><a class="anchor" href="#_ausgangssituation"></a>1.1. Ausgangssituation</h3>
-<div class="paragraph">
-<p>Die HTL-Leonding ist eine Lehranstalt in Oberösterreich, wo derzeit rund 1000 Schüler unterrichtet werden.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_istzustand"><a class="anchor" href="#_istzustand"></a>1.2. Istzustand</h3>
-<div class="paragraph">
-<p>Derzeit kann man auf der Website alle nötigen Informationen herraussuchen. Wenn man noch Nähere Informationen braucht,
-kann man im Sektretariat anrufen und dort nachfragen.</p>
-</div>
-<div class="sect4">
-<h5 id="_geschäftsprozesse"><a class="anchor" href="#_geschäftsprozesse"></a>Geschäftsprozesse</h5>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Navigation auf der Schulwebsite. (z.B "Zeige mir die nächsten anstehenden Termine")</p>
-</li>
-<li>
-<p>Informationen über Lehrer (z.B Sprechstunden), Termine und Informationen der einzelnen Schwerpunkte können über
-Texteingabe abgerufen werden.</p>
-</li>
-<li>
-<p>Leonet soll eine "Persönlichkeit" haben (Gesicht, Humor, &#8230;&#8203;)</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_problemstellung"><a class="anchor" href="#_problemstellung"></a>1.3. Problemstellung</h3>
-<div class="paragraph">
-<p>Derzeit muss der User alle Informationen heraussuchen und auf der Website selbst herumnavigieren.
-Dies kann manchmal etwas verwirrend sein und viel mehr Zeit in Anspruch nehmen als der User aufbringen möchte.
-Informationen, die nicht so oft gesucht werden können auf der Website sehr schlecht gefunden werden.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_aufgabenstellung"><a class="anchor" href="#_aufgabenstellung"></a>1.4. Aufgabenstellung</h3>
-<div class="paragraph">
-<p>Es wird ein Chatbot mittels Dialogflow erstellt und in die Website der HTL-Leonding eingebunden. Dieser soll Daten von
-Lehrkräften, Termine und generelle Informationen auf der Website mittels Texteingabe suchen und dem User anschaulich
-präsentieren. Auch gibt der Bot Fragen oder Themen vor, die der User auswählen kann.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_zielsetzung"><a class="anchor" href="#_zielsetzung"></a>1.5. Zielsetzung</h3>
-<div class="paragraph">
-<p>Der Bot hilft den Benutzern, sich auf der Website besser zurecht zu finden. Die Informationen, die jeder Benutzer braucht können
-viel schneller und einfacher gefunden werden. Der Nutzer fühlt sich, sobald er auf der Website ist, mehr willkommen, da LeoNet etwas "menschlichkeit"
-bereitstellt. Der User muss nicht den ersten Schritt machen, sondern wird von LeoNet an der Hand geführt, da er direkt angesprochen wird
-und von vorgeschlagenen Fragen auswählen kann.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_2_user_stories"><a class="anchor" href="#_2_user_stories"></a>2. 2.User-Stories</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Wenn ich auf die Website kommne, möchte ich, dass mich der Chatbot mit einer kurzen Nachricht, wie zum Beispiel "Hallo!
-ich bin Leonet! Wenn du eine Frage hast, kannst du mir sie gerne Stellen!"</p>
-</div>
-<div class="paragraph">
-<p>Wenn ich Leonet eine Frage über das Bildungsangebot der Informatik frage, soll sie mir den Link auf dei schon vorhandene
-unterseite zu dem Thema vorschlagen.</p>
-</div>
-<div class="paragraph">
-<p>Wenn Leonet eine Frage nicht verstanden hat oder eine Frage, die nichts mit der HTL-Leonding zu tun hat gefragt wurde,
-soll sie nett darauf hinweisen, dass die Frage für sie nicht verständlich ist.</p>
-</div>
-<div class="paragraph">
-<p>Wenn ich Leonet frage, wie die Telefonnummer des Sekretariats lautet, soll sie mir die richtige Telefonnummer Vorschlagen
-und dabei eine nette und etwas lustigere Nachricht, wie zum Beispiel "Probiere diese Nummer einmal, die hat bis jetzt immer"
-funktioniert", anhängen.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_3_anwendungsbeispiele"><a class="anchor" href="#_3_anwendungsbeispiele"></a>3. 3. Anwendungsbeispiele</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Der User wählt den vorgeschlagenen Punkt "Erfahre etwas über unser Bildungsangebot" aus und gelangt so auf die Unterseite "https://www.htl-leonding.ac.at/bildungsangebot".</p>
-</div>
-<div class="paragraph">
-<p>Der User gibt in das Eingabefeld "Informatik" ein. Darauf antwortet der Chatbot mit "Ich habe viele Informationen über die Informatik hier gefunden: <a href="https://www.htl-leonding.ac.at/billdungsangebot/informatik"" class="bare">https://www.htl-leonding.ac.at/billdungsangebot/informatik"</a></p>
-</div>
-<div class="paragraph">
-<p>Der User interagiert nicht mit dem Chatbot, deswegen wird das Fenster klein und bleibt in der linken unteren Ecke des Bildschirms.</p>
-</div>
-<div class="paragraph">
-<p>Der User findet keine Informationen über das Schulradio und gibt darauf hin in das Eingabefenster "Wo finde ich das Schulradio?" ein. LeoNet antwortet darauf "Infos über das Schulradio findest du unter <a href="https://www.htl-leonding.ac.at/aktivitaeten/schulradio" class="bare">https://www.htl-leonding.ac.at/aktivitaeten/schulradio</a> ". Der User klickt auf den Link und gelangt so auf die entsprechende Unterseite.</p>
-</div>
-<div class="paragraph">
-<p>Ein Schüler muss einem Professor eine eMail schicken, doch findet die richtige Adresse nicht. Deswegen gibt er im Eingabefenster den namen des Professors ein. LeoNet gibt daraufhin zurück "Ich habe alle Informationen die du brauchen könntest hier gefunden: <a href="https://www.htl-leonding.ac.at/kontakt/lehrer-innen/"" class="bare">https://www.htl-leonding.ac.at/kontakt/lehrer-innen/"</a>. Auf dieser Unterseite wurde schon nach dem Professor gesucht, dass der Schüler direkt die Informationen findet.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_4_produktvergleich"><a class="anchor" href="#_4_produktvergleich"></a>4. 4. Produktvergleich</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Magenta - Tinka <a href="https://www.magenta.at/" class="bare">https://www.magenta.at/</a></p>
-</div>
-<div class="paragraph">
-<p>Linz - Elli <a href="https://www.linz.at/db/chatbot/" class="bare">https://www.linz.at/db/chatbot/</a></p>
-</div>
-<div class="paragraph">
-<p>Drei - Troy <a href="https://www.drei.at/de/privat/" class="bare">https://www.drei.at/de/privat/</a></p>
-</div>
-<div class="paragraph">
-<p>Cubertbyusphones - Cubert <a href="https://cubertbuysphones.com/cubert/" class="bare">https://cubertbuysphones.com/cubert/</a></p>
-</div>
-<div class="paragraph">
-<p>Pandora Bots - Mitsuku <a href="https://www.pandorabots.com/mitsuku/" class="bare">https://www.pandorabots.com/mitsuku/</a></p>
-</div>
 <table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Teilnehmer</caption>
 <colgroup>
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">anwesend</th>
+<th class="tableblock halign-left valign-top">Verteiler</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Simon Knogler</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Florian Klausner</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">T. Stütz</p></td>
+<td class="tableblock halign-left valign-top"></td>
+</tr>
+</tbody>
+</table>
+<table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 2. Ort und Zeit</caption>
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Tinka</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Elli</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Cubert</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Mitsuki</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ort</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Discord</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Vorteile</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Begrüßung, Vorschläge, Übersichtliche Implementierung</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Avatar (Gesicht), Begrüßung, Fragenvorschläge, Smalltalk</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sehr schöne Implementierung</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Sehr intelligent. Der Avatar verleiht dem Bot sehr viel menschlichkeit.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">von-bis</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mo. 27.4.2020, 9. und teilweise 10. EH</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Nachteile</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Kein Smalltalk</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Nicht minimierbar</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Keine Texteingabe,nur geführter Verlauf, dadurch auch kein Smalltalk</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Keine vorgeschlagenen Fragen</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Fazit</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Implementierung ist sehr übersichtlich. Fragenvorschläge sind verständlich und gut formuliert.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Der Avatar macht den Bot vertraulicher und Smalltalk macht ihn menschlicher.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Die Implementierung ist sehr gut gelungen. Keine Texteingabe und ein vordefinierter Verlauf ist sehr eingeschränkt.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Ein sehr intelligenter Chatbot, der aber nicht für einen bestimmten Zweck/Website angefertigt wurde. Der Avatar ist sehr gut gelungen!</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ca. 40 min</p></td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_besprochene_themen"><a class="anchor" href="#_besprochene_themen"></a>1. Besprochene Themen</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>README.adoc</p>
+</li>
+<li>
+<p>Dokumentation</p>
+</li>
+<li>
+<p>Marktanalyse</p>
+</li>
+<li>
+<p>Anwendungsfälle</p>
+</li>
+<li>
+<p>Zielsetzung</p>
+</li>
+<li>
+<p>Aufgabenstellung</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_vereinbarungen_und_entscheidungen"><a class="anchor" href="#_vereinbarungen_und_entscheidungen"></a>1.1. Vereinbarungen und Entscheidungen</h3>
+<div class="sect3">
+<h4 id="_punkt_1"><a class="anchor" href="#_punkt_1"></a>1.1.1. Punkt 1</h4>
+<div class="paragraph">
+<p>Readme.adoc soll den Link zur Github-Page enthalten</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_punkt_2"><a class="anchor" href="#_punkt_2"></a>1.1.2. Punkt 2</h4>
+<div class="paragraph">
+<p>Alle Gespräche müssen mithilfe dem protocol-template.adoc geschrieben werden.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_punkt_3"><a class="anchor" href="#_punkt_3"></a>1.1.3. Punkt 3</h4>
+<div class="paragraph">
+<p>Die Marktanalyse soll zu Produktvergleich unbennant werden.
+Die Produkte sollen auf verscheidene Kriterien verglichen und alle, die für unser Projekt relevant oder hilfreich
+sein können heraus geschrieben werden.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_punkt_4"><a class="anchor" href="#_punkt_4"></a>1.1.4. Punkt 4</h4>
+<div class="paragraph">
+<p>Anwendungsfälle soll zu Anwendungsbeispiele umbennant werden.
+Es muss ein UML Diagramm erstellt werden.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_punkt_5"><a class="anchor" href="#_punkt_5"></a>1.1.5. Punkt 5</h4>
+<div class="paragraph">
+<p>Die Zielsetzung muss neu verfasst werden.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_punkt_6"><a class="anchor" href="#_punkt_6"></a>1.1.6. Punkt 6</h4>
+<div class="paragraph">
+<p>Die Aufgabenstellung muss aufgrund neuer Vereinbarungen upgedated werden.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.0.5<br>
-Last updated 2020-05-07 12:37:37 UTC
+Version 1.0<br>
+Last updated 2020-05-07 12:36:56 UTC
 </div>
 </div>
 </body>
